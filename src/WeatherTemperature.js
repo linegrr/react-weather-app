@@ -1,5 +1,6 @@
 import React,{ useState } from "react";
 
+
 export default function WeatherTemperature (props) {
     const [unit, setUnit] = useState("celcius");
 
@@ -19,7 +20,7 @@ export default function WeatherTemperature (props) {
         <div className="WeatherTemperature">
           <span className="temperature">{Math.round(props.celcius)}</span>
           <span className="unit">
-            ℃ |<a href="/"onClick={convertToFahrenheit}>℉</a>{" "}
+            ℃ |<a className="units" href="/"onClick={convertToFahrenheit}>℉</a>{" "}
           </span>
         </div>
       );
