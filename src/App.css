@@ -1,10 +1,20 @@
 .App {
   max-width: 600px;
   margin: 30px auto;
+  background-color:aliceblue;
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 10px;
 }
 
 .App footer {
   font-size: 11px;
   margin: 10px 0;
   text-align: center;
+}
+.WeatherInfo h1 {
+  font-size: 40px;
+  margin-bottom:15px;
+  color: black;
+  font-weight: bolder;
 }
